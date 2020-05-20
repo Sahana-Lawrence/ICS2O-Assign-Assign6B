@@ -6,21 +6,25 @@
     <meta name="keywords" content="JavaScript">
     <meta name="author" content="Sahana Lawrence">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Area and Circumference of a Circle</title>
+    <title>Pizza Order</title>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Area and Circumference of a Circle</h1>
-    <b>Diameter:</b>
-    <input id="diameter">
+    <h1>Order Your Pizza Here!</h1>
+    <b>Pizza Size:</b>
+    <input type="button" id="large" value="Large">
+    <input type="button" id="xlarge" value="X-Large">
     <br><br>
-    <input type="button" id="btnarea" onclick="Area();" value="Result">
+    <b>Toppings:</b>
+    <input type="button" id="top1" value="1">
+    <input type="button" id="top2" value="2">
+    <input type="button" id="top3" value="3">
+    <input type="button" id="top4" value="4">
     <br><br>
-    <b>Area:</b>
-    <div id="divresult1"></div>
-    <br>
-    <b>Circumference:</b>
-    <div id="divresult2"></div>
+    <input type="button" id="btnarea" onclick="runTotal()" value="Result">
+    <br><br>
+    <b>Total: </b>
+    <div id="divresult"></div>
     <script src="index.js"></script>
   </body>
 </html>

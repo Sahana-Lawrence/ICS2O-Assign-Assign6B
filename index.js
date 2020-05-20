@@ -1,15 +1,20 @@
 // JavaScript File
 
 // variables assigned to calculate the area and circumference of a circle
-function Area(){
-var diameter = document.getElementById("diameter");
-var radius = document.getElementById("radius");
-var diametervalue = +diameter.value;
-var radiusvalue = +(diameter.value/2);
-var result1 = ((diameter.value/2)*(diameter.value/2)*Math.PI);
-var result2  = (diameter.value*Math.PI);
-var divresult1 = document.getElementById("divresult1");
-var divresult2 = document.getElementById("divresult2");
-divresult1.innerHTML = result1;
-divresult2.innerHTML = result2;
+function runTotal(){
+var large = document.getElementById("large");
+var xlarge = document.getElementById("xlarge");
+var top1 = document.getElementById("top1");
+var top2 = document.getElementById("top2");
+var top3 = document.getElementById("top3");
+var top4 = document.getElementById("top4");
+var largevalue = +6;
+var xlargevalue = +10;
+var top1 = +1;
+var top2 = +1.75;
+var top3 = +2.50;
+var top4 = +3.35;
+var result = ;
+var divresult = document.getElementById("divresult");
+divresult.innerHTML = result;
 }
