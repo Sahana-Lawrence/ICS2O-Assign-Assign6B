@@ -1,6 +1,6 @@
 // JavaScript File
 
-// variables assigned to calculate the area and circumference of a circle
+// variables assigned
 function runTotal() {
 var large = document.getElementById("large");
 var xlarge = document.getElementById("xlarge");
