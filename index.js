@@ -20,7 +20,7 @@ function runTotal() {
   if (top1.checked) {
     toppingsprice = +1;
   } else if (top2.checked) {
-    toppingsprice = +10;
+    toppingsprice = +1.75;
   } else if (top3.checked) {
     toppingsprice = +2.50;
   } else if (top4.checked) {
@@ -29,7 +29,7 @@ function runTotal() {
     toppingsprice = +0;
   }
   
-  var result1 = ("pizzaprice"+"toppingsprice");
+  var result1 = (pizzaprice+toppingsprice);
   var result2 = (result1*0.13);
   var result3 = (result1*1.13);
   var divresult1 = document.getElementById("divresult1");
